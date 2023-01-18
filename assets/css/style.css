@@ -441,52 +441,48 @@ header #up-nav .right .login a{
 
 /* #archives start */
 #archives {
-    margin-left: 350px;
-    margin-top: 100px;
+    width: 60%;
+    margin: 50px auto;
 }
 #archives span{
     font-size: 30px;
+    
+}
+#archives .links{
+    width: 1280px;
+    height: 200px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   background-color: white;
+   margin-top: 20px;
+   
+}
+#archives .links a{
+    width: 16%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #047eb3;
+    color: white;
+    border-radius: 10px;
+}
+#archives .button {
+    width: 15% ;
+    margin: 20px auto;
+}
+#archives .button button{
+    padding: 20px 60px;
+    border-radius: 10px;
+    color: #047eb3;
+    border: 1px solid #047eb3;
 }
 
-#archives .top {
-    margin-top: 20px;
-}
-#archives .top ul{
+.button{
     display: flex;
+    justify-content: center;
 }
-#archives .top ul li{
-    padding: 20px 40px 20px 0;
-    
-}
-#archives .top ul li a{
-    background-color: #047eb3;
-    padding: 20px 35px;
-    border-radius: 5px;
-    color: white;
-}
-#archives .center ul{
-    display: flex;
-}
-#archives .center ul li{
-    padding: 20px 40px 20px 0;
-    
-}
-#archives .center ul li a{
-    background-color: #047eb3;
-    padding: 20px 35px;
-    border-radius: 5px;
-    color: white;
-}
-#archives .bottom ul{
-    display: flex;
-}
-#archives .bottom ul li{
-    padding: 20px 40px 20px 0;
-    
-}
-#archives .bottom ul li a{
-    background-color: #047eb3;
-    padding: 20px 35px;
-    border-radius: 5px;
-    color: white;
+.archive-links{
+    width: max-content;
 }

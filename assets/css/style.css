@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
 }
 .row{
     display: flex;
@@ -208,28 +210,89 @@ header #up-nav .right .login a{
     color: white;
     font-size: 20px;
  }
-
+ /* news left end */
+ /* news center start */
  #news .center{
     margin-left: 30px;
+    width: 300px;
+    height:400px ;
+    
  }
  #news .center .up{
      width: 300px;
      height: 190px;
      margin-bottom: 20px;
+     background-image: url("../Img/dd704a46-3548-40fc-8ac0-a9afc54478ec.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 10px;
  }
- #news .center .up img{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+ 
+ #news .center .up  .news-heading a{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+ }
+ #news .center .up  .news-heading a p{
+    padding-top: 120px;
  }
  #news .center .down{
     width: 300px;
     height: 190px;
- } 
- #news .center .down img{
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
+    background-image: url("../Img/9d4abef1-1a92-4546-bb5e-ffecd84c28fd.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+} 
+ #news .center .down .news-heading a{
+    color: white;
+    font-size: 15px;
+    text-align: center;
  }
+ #news .center .down  .news-heading a p{
+    padding-top: 150px;
+ }
+/* news center end */
 
-
+/* news right start */
+#news .right{
+    height: 400px;
+    width: 300px;
+    border: 1px solid #047eb3;
+    border-radius: 10px;
+   margin-left: 90px;
+   overflow-y: auto;
+   
+}
+#news .right .up {
+    margin: 20px 0 0 20px;
+}
+#news .right .up h1{
+    color: #047eb3;
+}
+#news .right .down {
+    padding: 10px 15px;
+}
+#news .right .down li{
+    margin-top: 10px;
+    border: 1px solid #edf6fa;
+    border-radius: 5px;
+}
+#news .right .down a{
+    font-size: 10px;
+    color: black;
+   
+}
+#news .right .down a p{
+    padding: 5px;
+    background-color: #ffffff;
+}
+#news .right .down a .date{
+    display: flex;
+    justify-content: space-between;
+}
+#news .contact{
+    margin-top: 20px;
+    margin-left: 170px;
+}

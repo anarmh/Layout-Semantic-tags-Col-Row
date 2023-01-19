@@ -90,8 +90,9 @@ header #up-nav .right .search{
     border-radius: 15px;
     margin-top: 3px;
 }
-header #up-nav .right  .search form button{
-    border: none;
+header #up-nav .right  .search form a{
+   color: rgb(205, 209, 215);
+   margin-left: 10px;
     
 }
 
@@ -430,7 +431,7 @@ header #up-nav .right .login a{
 #image .img{
     margin-left: 350px;
     margin-top: 100px;
-    width:1300px ;
+    width:68.5% ;
     height: 200px;
 }
 #image .img img{
@@ -485,4 +486,136 @@ header #up-nav .right .login a{
 }
 .archive-links{
     width: max-content;
+}
+/* arhcives end */
+/* main end  */
+
+/* footer start */
+ #footer{
+    background-color: rgb(4, 126, 179);
+    position: relative;
+ }
+ #footer .info-medical{
+    width: 75%;
+    height: 400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+ #footer .info-medical .up{
+    width: 500px;
+    position: absolute;
+    left: 15%;
+    margin-top: 10px;
+ }
+ #footer .info-medical .up .img{
+    width: 100px;
+    height: 40px;
+    margin: 30px 0;
+    
+ }
+ #footer .info-medical .up .img img{
+    width: 100%;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-size: 8px;
+ }
+ #footer .info-medical .up .media{
+    width: 270px;
+    color: white;
+ }
+
+ #footer .info-medical .down{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    border: none;
+    
+ }
+ #footer .info-medical .down p{
+     font-size: 25px;
+    color:white;
+     margin-top: 5px;
+ }
+ #footer .info-medical .down form{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    
+}
+ 
+ #footer .info-medical .down input{
+    margin-top: 30px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    background: 0px 0px;
+    width: 100%;
+    padding-right: 50px;
+    outline: none;
+}
+#footer .info-medical .down input::placeholder{
+    color: yellowgreen;
+}
+ #footer .info-medical .down a{
+    background: white;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    border: none;
+}
+
+#footer .info-medical .about{
+    width: 500px;
+    display: flex;
+    padding-top: 40px;
+    position: relative;
+    gap: 50px;
+}
+#footer .info-medical .about .left,
+#footer .info-medical .about .center, 
+#footer .info-medical .about .right{
+    width: 200px;
+}
+
+#footer .info-medical .about .center, 
+#footer .info-medical .about .right{
+    /* margin-left: 30px; */
+    width: 100%;
+}
+#footer .info-medical .about ul li{
+    padding-bottom: 20px;
+   width: 180px;
+}
+#footer .info-medical .about ul li a{
+    color: white;
+    width: 100%;
+    
+}
+#footer .info-medical .about ul li span{
+    font-size: 20px;
+    color: white;
+}
+#footer .info-medical .about .social{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 120%;
+    left: 100%;
+}
+#footer .info-medical .about .social a{
+    color: white;
 }
